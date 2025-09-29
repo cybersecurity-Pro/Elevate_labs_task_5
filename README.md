@@ -24,3 +24,18 @@ This repository contains the following files and folders:
 
 *This repository is part of my internship submission and showcases my practical hands-on work with Wireshark.*
 
+
+---
+
+
+## 🛑 **STRICT DATA USAGE WARNING** 🛑
+
+The Wireshark packet capture file (`Capture.pcapng`) is included solely to fulfill the requirements of an educational internship task.
+
+This file is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) Public License**.
+
+**This license is extremely restrictive:**
+* **NonCommercial (NC):** The file **MUST NOT** be used for any commercial or monetized purpose.
+* **NoDerivatives (ND):** The file **MUST NOT** be modified, adapted, or used to create a new derived work (including stripping/filtering for another project).
+* Any use outside of the original, non-commercial, educational review purpose is prohibited.
+
