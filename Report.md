@@ -45,6 +45,10 @@ After starting the packet capture, I generated network traffic to ensure a varie
 ```powershell
 ping 8.8.8.8
 ```
+**Screenshot:**
+
+![3.3](./Screenshots/3.2.png)
+
 The purpose of this command was to generate ICMP traffic, which is used for network diagnostic purposes. By pinging 8.8.8.8 (Google's public DNS server), my PC sent ICMP Echo Request packets and received Echo Reply packets in response. This allowed me to capture ICMP protocol packets in Wireshark, which are essential for analyzing network connectivity and observing packet-level interactions between my PC and an external server.
 
 
@@ -61,7 +65,7 @@ During this capture, I performed a DNS query by opening Chrome and searching for
 
 **Screenshot:**  
 
-![3.3](./Screenshots/3.3.png)  
+![3.4](./Screenshots/3.4.png)  
 
 #### Packet Inspection
 
@@ -76,7 +80,7 @@ This packet demonstrates how DNS resolves domain names into IP addresses, allowi
 
 **Screenshot:**  
  
-![3.4](./Screenshots/3.4.png)
+![3.5](./Screenshots/3.5.png)
 
 
 ---
@@ -90,7 +94,7 @@ To observe TCP traffic, I applied the **`tcp` filter** in Wireshark. Among the c
 
 **Screenshot:**  
 
-![3.5](./Screenshots/3.5.png)
+![3.6](./Screenshots/3.6.png)
 
 The selected packet (No. 21573) provides evidence of TCP communication between my computer and the server:
 
@@ -116,7 +120,7 @@ This packet demonstrates that my computer successfully communicated with YouTube
 
 **Screenshot:**  
 
-![3.6](./Screenshots/3.6.png)
+![3.7](./Screenshots/3.7.png)
 
 
 ---
@@ -135,7 +139,7 @@ This produced ICMP Echo Request packets from my computer and ICMP Echo Reply pac
 
 **Screenshot:**
 
-[3.7](./Screenshot/3.7.png)
+[3.8](./Screenshot/3.8.png)
 
 ### Packet Tree Details
 
@@ -153,7 +157,7 @@ This packet demonstrates the successful delivery and response of ICMP messages, 
 
 **Screenshot:**
 
-[3.8](./Screenshot/3.8.png)
+[3.9](./Screenshot/3.9.png)
 
 
 ---
@@ -167,7 +171,7 @@ To observe TLS traffic, I applied the **`tls` filter** in Wireshark.
 
 **Screenshot (after applying TLS filter):**  
 
-![3.9](./Screenshots/3.9.png)
+![3.10](./Screenshots/3.10.png)
 
 Using the knowledge of the YouTube server IP (`142.251.42.14`), I identified a TLS packet with **Destination IP: 142.251.42.14**. I opened this packet to analyze its detailed structure.  
 
@@ -182,7 +186,7 @@ Expanding the packet tree revealed several important sections:
 
 **Screenshot (detailed packet tree):**  
 
-![3.10](./Screenshots/3.10.png)
+![3.11](./Screenshots/3.11.png)
 
 
 ---
