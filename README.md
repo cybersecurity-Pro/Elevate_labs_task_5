@@ -12,7 +12,7 @@ This repository contains the following files and folders:
 - **Screenshots/**  
   A folder containing all the screenshots taken during the execution of this task. Each screenshot corresponds to specific steps described in the report.
 
-- **Capture.pcap**  
+- **Capture.pcapng**  
   The raw packet capture file generated during the task. This file was used for protocol filtering and analysis in Wireshark.  
   ⚠️ *Note: The `.pcap` file was captured on my personal system for demonstration purposes. No credentials were entered during capture, and the file mainly includes routine traffic such as DNS queries, TCP sessions, ICMP ping tests, and TLS packets.*
 
