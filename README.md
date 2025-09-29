@@ -1,6 +1,8 @@
 # Capture and Analyze Network Traffic Using Wireshark
 
 ## 📌 Introduction
+**This README file provides an overview of the repository's structure and contents for the network traffic analysis task.**
+
 This task was completed as part of my cybersecurity internship. The objective was to perform a packet capture using **Wireshark**, analyze the traffic for different protocols (DNS, TCP, ICMP, TLS), and document the entire process in a structured walkthrough. The activity demonstrates practical knowledge of packet capturing, filtering, and protocol-level analysis.
 
 ## 📂 Repository Structure
