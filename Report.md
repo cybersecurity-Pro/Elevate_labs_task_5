@@ -139,7 +139,7 @@ This produced ICMP Echo Request packets from my computer and ICMP Echo Reply pac
 
 **Screenshot:**
 
-[3.8](./Screenshot/3.8.png)
+[3.8](./Screenshots/3.8.png)
 
 ### Packet Tree Details
 
@@ -157,7 +157,7 @@ This packet demonstrates the successful delivery and response of ICMP messages, 
 
 **Screenshot:**
 
-[3.9](./Screenshot/3.9.png)
+[3.9](./Screenshots/3.9.png)
 
 
 ---
