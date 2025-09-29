@@ -16,6 +16,9 @@ This repository contains the following files and folders:
   The raw packet capture file generated during the task. This file was used for protocol filtering and analysis in Wireshark.  
   ⚠️ *Note: The `.pcap` file was captured on my personal system for demonstration purposes. No credentials were entered during capture, and the file mainly includes routine traffic such as DNS queries, TCP sessions, ICMP ping tests, and TLS packets.*
 
+- **LICENSE**
+  The legal text for the usage license applied to the raw capture file.
+
 ## ✅ How to Use
 1. Open the **Report.md** file for the full walkthrough.  
 2. Refer to the **Screenshots** folder for visual references.  
